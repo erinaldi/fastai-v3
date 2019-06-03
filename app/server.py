@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1zyLImePeaDBRk76lHAzFu154r8dL97d6'
-export_file_name = 'resnet34_for_famous_physicists.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=10QxCdeWggEUmglr8WS1dtb1ZI7MnfAFt'
+export_file_name = 'export.pkl'
 
 classes = ['einstein', 'hawking', 'tyson']
 path = Path(__file__).parent
