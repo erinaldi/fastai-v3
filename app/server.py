@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=10QxCdeWggEUmglr8WS1dtb1ZI7MnfAFt'
 export_file_name = 'export.pkl'
 
-classes = ['einstein', 'hawking', 'tyson']
+classes = ['einstein', 'feynman', 'hawking', 'newton', 'tyson']
 path = Path(__file__).parent
 
 app = Starlette()
